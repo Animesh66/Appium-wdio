@@ -1,3 +1,5 @@
+import { $, $$, expect, driver } from '@wdio/globals';
+
 describe('Android native feature testing', () => {
     it('Open Screen directly using AppActive', async () => {
         // Use app activity to navigate to a screen directly

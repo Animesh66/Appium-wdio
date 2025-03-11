@@ -1,3 +1,5 @@
+import { $, $$, expect, driver } from '@wdio/globals';
+
 describe('Contains tets related to Android element identification', () => {
     it('Finding element by accessibility id', async () => {
         // find element by accessibility id
